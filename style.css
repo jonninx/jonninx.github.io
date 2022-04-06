@@ -1,0 +1,270 @@
+/*
+Main color: #e9c65e
+Gray color: #b6bbc1
+Tint of black: #1a1a18
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Hero section */
+.hero {
+  background-image: url(images/porsche.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(182, 187, 193, 0.62);
+  height: 93px;
+}
+.navlinks {
+  display: flex;
+  text-transform: uppercase;
+  /* margin-left: 100px;
+  margin-top: 20px;
+  margin-right: 89px; */
+  
+}
+.navlink {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 36px;
+  text-decoration: none;
+  color: #000000;
+
+  /* margin-left: 34px; */
+  /* border: 7px solid #e9c65e; */
+  /* border-radius: 43px; */
+  /* background-color: #e9c65e; */
+
+  /* padding-top: 7px;
+  padding-left: 30px;
+  padding-right: 5px; */
+
+  /* height: 30px;
+  width: 150px; */
+}
+
+.last {
+  margin-right: 96px;
+}
+/* 
+.special {
+  padding-right: 20px;
+}
+
+.first {
+  padding-right: 15px;
+}
+
+.third {
+  
+  padding-right: 5px;
+} */
+
+.navlink:hover {
+  color: #e9c65e;
+  transition: all 0.3s;
+}
+
+.logo img{
+  width: 175px;
+  height: 75px;
+}
+
+.hero-heading {
+  position: absolute;
+  left: 73px;
+  top: 150px;
+  color: #b6bbc1;
+  font-size: 100px;
+  max-width: 40%;
+  text-align: center;
+  line-height: 98px;
+  letter-spacing: -4%;
+  font-weight: 700;
+  max-width: 700px;
+}
+.hero-paragraph {
+  position: absolute;
+  left: 220px;
+  top: 400px;
+  text-align: center;
+  font-size: 36px;
+  max-width: 419px;
+  line-height: 47px;
+  color: #e9c65e;
+}
+.lindi-text {
+  font-weight: 700;
+  color: #e9c65e;
+}
+.left-block {
+  position: absolute;
+  width: 50%;
+  background-color: rgba(26, 26, 24, 0.25);
+  left: 1px;
+  height: 100%;
+  top: 93px;
+}
+.col-grid {
+  display: flex;
+  flex-direction: column;
+}
+.collection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 800px;
+  background: #1a1a18;
+  /* position: relative; */
+}
+.options {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+.options-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.option-link {
+  margin-top: 30px;
+  position: relative;
+  width: 275px;
+  height: 176px;
+  border: 5px solid #b6bbc1;
+  background: #1a1a18;
+  text-align: center;
+  margin-left: 30px;
+}
+.option-link:hover {
+  border: 5px solid #e9c65e;
+}
+.option-image {
+  position: absolute;
+  top: 10%;
+  left: 38%;
+}
+.link {
+  text-decoration: none;
+  color: #e9c65e;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 36px;
+}
+.link:hover {
+  color: #b6bbc1;
+  transition: color 0.3s;
+}
+/* Our Collection */
+.our-collection {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 800px;
+  /* transform: translateX(-70%);
+  transform: translateX(70%); */
+}
+.collection-header {
+  font-size: 64px;
+  color: #b6bbc1;
+}
+.collection-text {
+  font-size: 24px;
+  color: #e9c65e;
+  font-weight: bold;
+  margin: 3px;
+}
+.collection-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.one-showcase {
+  min-height: 853px;
+  min-width: 1920px;
+  position: relative;
+}
+.frontier {
+  background-image: url("/images/nissan.jpg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.suv {
+  background-image: url("/images/xhip.jpg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.ferrari {
+  background-image: url("/images/ferrari.jpg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.showcase-header {
+  margin-top: 35px;
+  position: absolute;
+  margin-left: 60px;
+  font-size: 48px;
+  letter-spacing: 18%;
+  line-height: 72px;
+  color: white;
+}
+.showcase-button {
+  color: #e9c65e;
+  border: 1px solid #1a1a18;
+  background: #1a1a18;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  text-align: center;
+  border-radius: 23px;
+  font-size: 36px;
+  font-weight: 900;
+  margin-left: 90px;
+  position: absolute;
+  top: 200px;
+  transition: all 0.3s;
+}
+.showcase-button:hover {
+  background-color: #e9c65e;
+  color: #1a1a18;
+  border: 1px solid #e9c65e;
+}
+.footer {
+  height: 150px;
+  background: #b6bbc1;
+  /* margin-top: -32px; */
+  text-align: center;
+  color: #1a1a18;
+  display: flex;
+  justify-content: center;
+}
+
+.footer h1 {
+  letter-spacing: 18%;
+  font-weight: 700;
+  font-size: 48px;
+}
