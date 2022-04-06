@@ -6,7 +6,19 @@ Tint of black: #1a1a18
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
 
+/**/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
+
   font-family: "Roboto", sans-serif;
   margin: 0;
   overflow-x: hidden;
@@ -21,7 +33,8 @@ h1 {
   background-image: url(images/porsche.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
+  max-width: 384rem;
+  /* width: 100vw; */
   height: 100vh;
 }
 .navbar {
@@ -29,7 +42,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   background: rgba(182, 187, 193, 0.62);
-  height: 93px;
+  height: 9.5rem;
 }
 .navlinks {
   display: flex;
@@ -41,9 +54,9 @@ h1 {
 }
 .navlink {
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 600;
-  margin-right: 36px;
+  margin-right: 3.6rem;
   text-decoration: none;
   color: #000000;
 
@@ -61,7 +74,7 @@ h1 {
 }
 
 .last {
-  margin-right: 96px;
+  margin-right: 9.6rem;
 }
 /* 
 .special {
@@ -83,31 +96,31 @@ h1 {
 }
 
 .logo img{
-  width: 175px;
-  height: 75px;
+  width: 17.5rem;
+  height: 7.5rem;
 }
 
 .hero-heading {
   position: absolute;
-  left: 73px;
-  top: 150px;
+  left: 7.5rem;
+  top: 15rem;
   color: #b6bbc1;
-  font-size: 100px;
+  font-size: 10rem;
   max-width: 40%;
   text-align: center;
-  line-height: 98px;
+  line-height: 10rem;
   letter-spacing: -4%;
   font-weight: 700;
-  max-width: 700px;
+  max-width: 70rem;
 }
 .hero-paragraph {
   position: absolute;
-  left: 220px;
-  top: 400px;
+  left: 22rem;
+  top: 40rem;
   text-align: center;
-  font-size: 36px;
-  max-width: 419px;
-  line-height: 47px;
+  font-size: 3.6rem;
+  max-width: 42rem;
+  line-height: 4.7rem;
   color: #e9c65e;
 }
 .lindi-text {
@@ -118,9 +131,9 @@ h1 {
   position: absolute;
   width: 50%;
   background-color: rgba(26, 26, 24, 0.25);
-  left: 1px;
+  left: 0.1rem;
   height: 100%;
-  top: 93px;
+  top: 9.5rem;
 }
 .col-grid {
   display: flex;
@@ -131,7 +144,7 @@ h1 {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 800px;
+  height: 80rem;
   background: #1a1a18;
   /* position: relative; */
 }
@@ -146,14 +159,14 @@ h1 {
   list-style: none;
 }
 .option-link {
-  margin-top: 30px;
+  margin-top: 3.2rem;
   position: relative;
-  width: 275px;
-  height: 176px;
+  width: 27.5rem;
+  height: 17.5rem;
   border: 5px solid #b6bbc1;
   background: #1a1a18;
   text-align: center;
-  margin-left: 30px;
+  margin-left: 3.2rem;
 }
 .option-link:hover {
   border: 5px solid #e9c65e;
@@ -170,7 +183,7 @@ h1 {
   top: 60%;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 36px;
+  font-size: 3.6rem;
 }
 .link:hover {
   color: #b6bbc1;
@@ -180,30 +193,30 @@ h1 {
 .our-collection {
   margin: 0 auto;
   text-align: center;
-  max-width: 800px;
+  max-width: 80rem;
   /* transform: translateX(-70%);
   transform: translateX(70%); */
 }
 .collection-header {
-  font-size: 64px;
+  font-size: 6.4rem;
   color: #b6bbc1;
 }
 .collection-text {
-  font-size: 24px;
+  font-size: 2.4rem;
   color: #e9c65e;
   font-weight: bold;
-  margin: 3px;
+  margin: 0.4rem;
 }
 .collection-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  column-gap: 10px;
-  row-gap: 10px;
+  column-gap: 1rem;
+  row-gap: 1rem;
 }
 .one-showcase {
-  min-height: 853px;
-  min-width: 1920px;
+  min-height: 85rem;
+  min-width: 192rem;
   position: relative;
 }
 .frontier {
@@ -225,12 +238,12 @@ h1 {
   background-size: 100%;
 }
 .showcase-header {
-  margin-top: 35px;
+  margin-top: 3.5rem;
   position: absolute;
-  margin-left: 60px;
-  font-size: 48px;
+  margin-left: 6.0rem;
+  font-size: 4.8rem;
   letter-spacing: 18%;
-  line-height: 72px;
+  line-height: 7.2rem;
   color: white;
 }
 .showcase-button {
@@ -241,11 +254,11 @@ h1 {
   padding: 1rem 3rem;
   text-align: center;
   border-radius: 23px;
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: 900;
-  margin-left: 90px;
+  margin-left: 9.0rem;
   position: absolute;
-  top: 200px;
+  top: 20rem;
   transition: all 0.3s;
 }
 .showcase-button:hover {
@@ -254,7 +267,7 @@ h1 {
   border: 1px solid #e9c65e;
 }
 .footer {
-  height: 150px;
+  height: 8.1rem;
   background: #b6bbc1;
   /* margin-top: -32px; */
   text-align: center;
@@ -266,5 +279,5 @@ h1 {
 .footer h1 {
   letter-spacing: 18%;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 3.8rem;
 }
