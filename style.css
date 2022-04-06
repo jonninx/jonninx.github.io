@@ -15,11 +15,9 @@ Tint of black: #1a1a18
 
 html {
   font-size: 10px;
-  /* font-size: 62.5%; */
 }
 
 body {
-
   font-family: "Roboto", sans-serif;
   margin: 0;
   overflow-x: hidden;
@@ -35,7 +33,6 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 384rem;
-  /* width: 100vw; */
   height: 100vh;
 }
 .navbar {
@@ -43,99 +40,78 @@ h1 {
   justify-content: space-between;
   align-items: center;
   background: rgba(182, 187, 193, 0.62);
-  height: 9.5rem;
+  height: 7.2rem;
 }
 .navlinks {
   display: flex;
   text-transform: uppercase;
-  /* margin-left: 100px;
-  margin-top: 20px;
-  margin-right: 89px; */
-  
 }
 .navlink {
   font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
   font-weight: 600;
-  margin-right: 3.6rem;
+  margin-right: 3.2rem;
   text-decoration: none;
   color: #000000;
-
-  /* margin-left: 34px; */
-  /* border: 7px solid #e9c65e; */
-  /* border-radius: 43px; */
-  /* background-color: #e9c65e; */
-
-  /* padding-top: 7px;
-  padding-left: 30px;
-  padding-right: 5px; */
-
-  /* height: 30px;
-  width: 150px; */
 }
 
 .last {
   margin-right: 9.6rem;
 }
-/* 
-.special {
-  padding-right: 20px;
-}
-
-.first {
-  padding-right: 15px;
-}
-
-.third {
-  
-  padding-right: 5px;
-} */
 
 .navlink:hover {
   color: #e9c65e;
   transition: all 0.3s;
 }
 
-.logo img{
-  width: 17.5rem;
-  height: 7.5rem;
+.logo img {
+  width: 15rem;
+  height: 7.2rem;
 }
 
 .hero-heading {
-  position: absolute;
-  left: 7.5rem;
-  top: 15rem;
   color: #b6bbc1;
-  font-size: 10rem;
-  max-width: 40%;
+  font-size: 7.2rem;
+  max-width: 100%;
   text-align: center;
+  align-items: center;
   line-height: 10rem;
-  letter-spacing: -4%;
+  letter-spacing: -5%;
   font-weight: 700;
-  max-width: 70rem;
 }
 .hero-paragraph {
-  position: absolute;
-  left: 22rem;
-  top: 40rem;
   text-align: center;
   font-size: 3.6rem;
   max-width: 42rem;
   line-height: 4.7rem;
   color: #e9c65e;
 }
+
 .lindi-text {
   font-weight: 700;
   color: #e9c65e;
 }
+
 .left-block {
-  position: absolute;
   width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: rgba(26, 26, 24, 0.25);
-  left: 0.1rem;
-  height: 100%;
-  top: 9.5rem;
 }
+
+.left-block-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 22rem;
+  left: 20%;
+}
+.left-block-para {
+  display: flex;
+  justify-content: center;
+  margin-top: 4.2rem;
+}
+
 .col-grid {
   display: flex;
   flex-direction: column;
@@ -144,8 +120,8 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
-  height: 80rem;
+  max-width: 324rem;
+  height: 82rem;
   background: #1a1a18;
   /* position: relative; */
 }
@@ -153,10 +129,11 @@ h1 {
   display: flex;
   justify-items: center;
   justify-content: center;
+  margin-bottom: 10rem;
 }
 .options-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
 }
 .option-link {
@@ -184,7 +161,7 @@ h1 {
   top: 60%;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 3.6rem;
+  font-size: 3.2rem;
 }
 .link:hover {
   color: #b6bbc1;
@@ -199,7 +176,7 @@ h1 {
   transform: translateX(70%); */
 }
 .collection-header {
-  font-size: 6.4rem;
+  font-size: 4.8rem;
   color: #b6bbc1;
 }
 .collection-text {
@@ -214,10 +191,12 @@ h1 {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   column-gap: 1rem;
   row-gap: 1rem;
+  margin-top: 6.8rem;
 }
 .one-showcase {
   min-height: 75rem;
   min-width: 192rem;
+  /* min-width: 100%; */
   position: relative;
 }
 .frontier {
@@ -239,11 +218,11 @@ h1 {
   background-size: 100%;
 }
 .showcase-header {
-  margin-top: 3.5rem;
+  margin-top: 3.6rem;
   position: absolute;
   margin-left: 6.0rem;
   font-size: 4.8rem;
-  letter-spacing: 18%;
+  letter-spacing: 15%;
   line-height: 7.2rem;
   color: white;
 }
@@ -255,8 +234,8 @@ h1 {
   padding: 1rem 3rem;
   text-align: center;
   border-radius: 23px;
-  font-size: 3.6rem;
-  font-weight: 900;
+  font-size: 2.8rem;
+  font-weight: 800;
   margin-left: 9.0rem;
   position: absolute;
   top: 20rem;
@@ -268,9 +247,8 @@ h1 {
   border: 1px solid #e9c65e;
 }
 .footer {
-  height: 8.1rem;
+  height: 7.2rem;
   background: #b6bbc1;
-  /* margin-top: -32px; */
   text-align: center;
   color: #1a1a18;
   display: flex;
@@ -278,7 +256,7 @@ h1 {
 }
 
 .footer h1 {
-  letter-spacing: 18%;
+  letter-spacing: 15%;
   font-weight: 700;
-  font-size: 3.8rem;
+  font-size: 2.8rem;
 }
