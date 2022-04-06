@@ -121,7 +121,7 @@ h1 {
   align-items: center;
   justify-content: center;
   max-width: 324rem;
-  height: 82rem;
+  height: 72rem;
   background: #1a1a18;
   /* position: relative; */
 }
@@ -130,6 +130,7 @@ h1 {
   justify-items: center;
   justify-content: center;
   margin-bottom: 10rem;
+  margin-top: -3.2rem;
 }
 .options-list {
   display: flex;
@@ -161,7 +162,7 @@ h1 {
   top: 60%;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 3.2rem;
+  font-size: 2.8rem;
 }
 .link:hover {
   color: #b6bbc1;
@@ -176,11 +177,11 @@ h1 {
   transform: translateX(70%); */
 }
 .collection-header {
-  font-size: 4.8rem;
+  font-size: 3.6rem;
   color: #b6bbc1;
 }
 .collection-text {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   color: #e9c65e;
   font-weight: bold;
   margin: 0.4rem;
@@ -221,7 +222,7 @@ h1 {
   margin-top: 3.6rem;
   position: absolute;
   margin-left: 6.0rem;
-  font-size: 4.8rem;
+  font-size: 3.2rem;
   letter-spacing: 15%;
   line-height: 7.2rem;
   color: white;
@@ -234,7 +235,7 @@ h1 {
   padding: 1rem 3rem;
   text-align: center;
   border-radius: 23px;
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   font-weight: 800;
   margin-left: 9.0rem;
   position: absolute;
@@ -258,5 +259,5 @@ h1 {
 .footer h1 {
   letter-spacing: 15%;
   font-weight: 700;
-  font-size: 2.8rem;
+  font-size: 2.2rem;
 }
