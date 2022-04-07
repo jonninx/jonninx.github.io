@@ -48,7 +48,7 @@ h1 {
 }
 .navlink {
   font-family: "Poppins", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 600;
   margin-right: 3.2rem;
   text-decoration: none;
@@ -103,7 +103,7 @@ h1 {
 .left-block-header {
   display: flex;
   justify-content: center;
-  margin-top: 22rem;
+  margin-top: 5rem;
   left: 20%;
 }
 .left-block-para {
@@ -260,4 +260,9 @@ h1 {
   letter-spacing: 15%;
   font-weight: 700;
   font-size: 2.2rem;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
 }
