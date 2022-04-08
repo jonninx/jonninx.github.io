@@ -71,20 +71,20 @@ h1 {
 
 .hero-heading {
   color: #b6bbc1;
-  font-size: 7.2rem;
+  font-size: 6.2rem;
   max-width: 100%;
-  text-align: center;
   align-items: center;
   line-height: 10rem;
   letter-spacing: -5%;
-  font-weight: 700;
+  font-weight: 800;
 }
+
 .hero-paragraph {
-  text-align: center;
-  font-size: 3.6rem;
-  max-width: 42rem;
-  line-height: 4.7rem;
+  font-size: 3rem;
+  /* max-width: 42rem; */
+  /* line-height: 4.7rem; */
   color: #e9c65e;
+  font-weight: 600;
 }
 
 .lindi-text {
@@ -101,15 +101,26 @@ h1 {
 }
 
 .left-block-header {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   margin-top: 5rem;
   left: 20%;
 }
-.left-block-para {
+
+/* .left-block-para {
   display: flex;
   justify-content: center;
   margin-top: 4.2rem;
+} */
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.cta-button {
+  margin-top: 5rem;
 }
 
 .col-grid {
@@ -242,11 +253,34 @@ h1 {
   top: 20rem;
   transition: all 0.3s;
 }
+
+.cta-btn {
+  display: flex;
+  width: 20%;
+  color: #e9c65e;
+  border: 1px solid #1a1a18;
+  background: #1a1a18;
+  text-decoration: none;
+  padding: 1.4rem 3.2rem;
+  
+  border-radius: 25px;
+  font-size: 2.8rem;
+  font-weight: 800;
+  transition: all 0.3s;
+  text-align: center;
+}
 .showcase-button:hover {
   background-color: #e9c65e;
   color: #1a1a18;
   border: 1px solid #e9c65e;
 }
+
+.cta-btn:hover {
+  background-color: #e9c65e;
+  color: #1a1a18;
+  border: 1px solid #e9c65e;
+}
+
 .footer {
   height: 7.2rem;
   background: #b6bbc1;
@@ -265,4 +299,17 @@ h1 {
 .footer-text {
   display: flex;
   align-items: center;
+}
+
+.mlt-gen {
+  margin-left: 7rem;
+  margin-top: 45rem;
+}
+
+.ml-lg {
+  margin-left: 7rem;
+}
+
+.mt-sm {
+  margin-top: 2.8rem;
 }
