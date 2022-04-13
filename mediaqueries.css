@@ -17,12 +17,6 @@
 
 }
 
-@media (max-width: 87.5em) {
-    .left-block-header {
-        margin-top: 20rem;
-    }
-}
-
 @media (max-width: 86.25em) {
     .hero-heading {
         font-size: 4.0rem;
