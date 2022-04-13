@@ -14,7 +14,8 @@ Tint of black: #1a1a18
 }
 
 html {
-  font-size: 10px !important
+  font-size: 10px !important;
+  font-size: 62.5% !important;
 }
 
 body {
@@ -27,11 +28,18 @@ h1 {
   font-family: "Poppins", sans-serif;
 }
 
+.flex {
+  display: flex;
+  justify-content: left;
+}
+
 /* Hero section */
 .hero {
   background-image: url(images/porsche.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   max-width: 384rem;
   height: 100vh;
 }
@@ -207,29 +215,39 @@ h1 {
   row-gap: 1rem;
   margin-top: 6.8rem;
 }
+
+.showcase {
+  max-width: 384rem;
+}
+
 .one-showcase {
-  min-height: 75rem;
-  min-width: 192rem;
+  /* min-height: 75rem; */
+  /* min-width: 192rem; */
   /* min-width: 100%; */
   position: relative;
+  max-width: 384rem;
+  height: 75vh;
 }
 .frontier {
   background-image: url("/images/nissan.jpg");
-  object-fit: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  max-width: 384rem;
 }
 .suv {
   background-image: url("/images/xhip.jpg");
-  object-fit: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  max-width: 384rem;
 }
 .ferrari {
   background-image: url("/images/ferrari.jpg");
-  object-fit: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  max-width: 384rem;
 }
 .showcase-header {
   margin-top: 3.6rem;
@@ -250,9 +268,9 @@ h1 {
   border-radius: 23px;
   font-size: 1.8rem;
   font-weight: 800;
-  margin-left: 9.0rem;
+  margin-left: 5.5rem;
   position: absolute;
-  top: 20rem;
+  top: 13rem;
   transition: all 0.3s;
 }
 
