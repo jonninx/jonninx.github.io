@@ -85,8 +85,8 @@ h1 {
 }
 
 .logo img {
-  width: 22rem;
-  height: 25rem;
+  padding-top: 1rem;
+  height: 19rem;
 }
 
 .mobile-nav {
