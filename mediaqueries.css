@@ -17,6 +17,7 @@
 }
 
 @media (max-width: 86.25em) {
+
     .hero-heading {
         font-size: 4.0rem;
     }
@@ -36,9 +37,6 @@
 
 @media (max-width: 73.125em) {
 
-    /* .hero-heading {
-        max-width: 500px;
-    } */
     .hero-heading {
         font-size: 3.4rem;
     }
@@ -76,17 +74,11 @@
 }
 
 
-@media (max-width: 62.5em) {
+@media (max-width: 59.375em) {
+
     .navlink {
         font-size: 1.2rem;
     }
-
-    .mobile-nav {
-        display: none;
-    }
-}
-
-@media (max-width: 59.375em) {
 
     .navbar {
         position: relative;
@@ -160,8 +152,8 @@
 
     .mlt-gen {
         margin-top: 7rem
+    }
 }
-
 @media (max-width: 37.5em) {
     html {
         font-size: 44.25% !important;
