@@ -1,19 +1,18 @@
+@media (min-width: 94em) {
+    .mobile-nav {
+        display: none;
+    }
+}
+
 @media (max-width: 94em) {
-    .hero-heading {
-        font-size: 4.4rem;
+    
+    html {
+        font-size: 55.25% !important;
     }
 
-    .hero-paragraph {
-        font-size: 2.8rem;
+    .mobile-nav {
+        display: none;
     }
-
-    .cta-btn {
-        font-size: 1.8rem;
-    }
-
-    /* .left-block-header {
-        margin-top: 25rem;
-    } */
 
 }
 
@@ -26,16 +25,20 @@
         font-size: 2.4rem;
     }
 
-    /* .cta-btn {
-        font-size: 1.4rem;
-    } */
+    .left-block {
+        background-color: rgba(26, 26, 24, 0);
+    }
 
-    /* .left-block-header {
-        margin-top: 15rem;
-    } */
+    .mobile-nav {
+        display: none;
+    }
 }
 
-@media (max-width: 81.25em) {
+@media (max-width: 73.125em) {
+
+    /* .hero-heading {
+        max-width: 500px;
+    } */
     .hero-heading {
         font-size: 3.4rem;
     }
@@ -44,20 +47,10 @@
         font-size: 1.8em;
     }
 
-    /* .cta-btn {
-        font-size: 1.4rem;
-    } */
+    .cta-btn {
+        font-size: 1.8rem;
+    }
 
-    /* .left-block-header {
-        margin-top: 15rem;
-    } */
-}
-
-@media (max-width: 73.125em) {
-
-    /* .hero-heading {
-        max-width: 500px;
-    } */
     .collection-grid {
         margin-top: 4.6rem;
         margin-bottom: 3.2rem;
@@ -76,21 +69,148 @@
     .left-block {
         min-width: 572.4px;
     }
+
+    .mobile-nav {
+        display: none;
+    }
 }
 
-@media (max-width: 46.875em) {
-    .left-block {
-        background-color: rgba(26, 26, 24, 0.15);
+
+@media (max-width: 62.5em) {
+    .navlink {
+        font-size: 1.2rem;
     }
 
-    /* .navbar {
-        min-width: 750px;
-    } */
+    .mobile-nav {
+        display: none;
+    }
 }
 
+@media (max-width: 59.375em) {
 
-@media (max-width: 940px) {}
+    .navbar {
+        position: relative;
+    }
 
-@media (max-width: 730px) {}
+    .mobile-nav {
+        display: block;
+    }
 
-@media (max-width: 600px) {}
+    .nav-bar {
+        position: fixed;
+        top: 0%;
+        left: 100%;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(26, 26, 24, 0.93);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        transition: all 0.3s ease-in-out;
+
+        opacity: 0;
+
+        pointer-events: none;
+
+        visibility: hidden;
+
+        z-index: 10;
+    }
+
+    .open-nav .nav-bar {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        left: 0%;
+    }
+
+    .open-nav button {
+        position: fixed;
+        right: 0;
+        z-index: 99999;
+    }
+
+    .open-nav ion-icon[name="close-outline"] {
+        display: block;
+    }
+
+    .open-nav ion-icon[name="menu-outline"] {
+        display: none;
+        z-index: 99999;
+    }
+
+    .nav-bar .navlinks {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3.6rem;
+    }
+
+    .navlink {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.6rem;
+        margin-right: 0;
+    }
+
+    .last {
+        margin-right: 0;
+    }
+
+    .mlt-gen {
+        margin-top: 7rem
+}
+
+@media (max-width: 37.5em) {
+    html {
+        font-size: 44.25% !important;
+    }
+
+    .mlt-gen {
+        margin-top: 5rem;
+    }
+
+    .option-image {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+
+    .showcase-button {
+        font-size: 1.6rem;
+        top: 11rem;
+    }
+
+    .cta-btn {
+        width: 15%;
+        font-size: 1.6rem;
+    }
+
+    .mt-sm {
+        margin-top: 2.2rem;
+    }
+}
+
+@media (max-width: 27.5em) {
+    .hero-heading {
+        font-size: 2.6rem;
+    } 
+
+    .cta-btn {
+        width: 15%;
+        font-size: 1.6rem;
+    }
+
+    .showcase-button {
+        font-size: 1.6rem;
+        top: 11rem;
+    }
+
+    .mlt-gen {
+        margin-top: 2rem;
+    }
+
+    .mt-sm {
+        margin-top: 2.2rem;
+    }
+}

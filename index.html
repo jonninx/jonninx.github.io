@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Autosalloni Lindi</title>
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Autosalloni Lindi</title>
+
   </head>
   <body>
-    <section class="hero">
-      <div class="navbar">
+    <section class="hero open-nav" id="header">
+      <div class="navbar header">
         <div class="logo">
           <!-- <a href="index.html"><img src="/images/AutoSalloni Lindi.png" alt="AutoSalloni Lindi"></a> -->
         </div>
@@ -20,9 +33,15 @@
             <a href="#" class="navlink">Zgjedh veturën</a>
             <a href="#" class="navlink">Ndërto &amp; Çmimi</a>
             <a href="#" class="navlink">Pikat e shitjes</a>
-            <a href="#" class="navlink last">Kush jemi ne?</a>
+            <a href="#" class="navlink">Kush jemi ne?</a>
           </ul>
         </div>
+
+        <button class="mobile-nav">
+          <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+          <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+        </button>
+
       </div>
 
         
@@ -44,6 +63,7 @@
         </div>
       <!-- </div> -->
     </section>
+
     <section class="collection">
       <div class="col-grid">
         <div>
@@ -110,6 +130,7 @@
         </div>
       </div>
     </section>
+
     <section class="showcase">
       <div class="one-showcase frontier">
         <h1 class="showcase-header">2020 NISSAN GT-R</h1>
@@ -125,7 +146,6 @@
       </div>
     </section>
     
-    <div class="footer-section">
     <footer class="footer">
         <div class="footer-container">
     
