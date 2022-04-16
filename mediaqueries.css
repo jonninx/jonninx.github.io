@@ -205,4 +205,32 @@
     .mt-sm {
         margin-top: 2.2rem;
     }
+
+    .option-link {
+        width: 19.5rem;
+        height: 14.5rem;
+    }
+
+    .option-image {
+        top: 10%;
+        left: 35%;
+    }
+
+    .link {
+        top: 70%;
+        left: 50%;
+        transform: translateX(-45%);
+    }
+
+    .collection-grid {
+        column-gap: 0;
+        row-gap: 1rem;
+    }
+
+    .collection-text {
+        margin-top: 0.4rem;
+        font-size: 1.8rem;
+    }
+
+
 }
