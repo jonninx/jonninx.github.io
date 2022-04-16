@@ -3,17 +3,12 @@ Main color: #e9c65e
 Shades of main: #d2b255
 Gray color: #b6bbc1
 Tint of black: #1a1a18
-
+*/
 
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/*
-
-font-family: 'Montserrat', sans-serif;
-
-*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -74,9 +69,9 @@ h1 {
   text-transform: uppercase;
 }
 .navlink {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
   margin-right: 3.2rem;
   text-decoration: none;
   color: white;
@@ -338,7 +333,7 @@ h1 {
 
 .mlt-gen {
   margin-left: 7rem;
-  margin-top: 14rem;
+  margin-top: 10rem;
 }
 
 .ml-lg {
