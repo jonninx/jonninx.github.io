@@ -47,7 +47,7 @@ h1 {
 
 /* Hero section */
 .hero {
-  background-image: url("/images/hero3-1.jpg");
+  background-image: url("/images/hero3-1-optimized.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -257,21 +257,21 @@ h1 {
   height: 75vh;
 }
 .frontier {
-  background-image: url("/images/car1.jpg");
+  background-image: url("/images/car1-optimized.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 384rem;
 }
 .suv {
-  background-image: url("/images/car5.jpg");
+  background-image: url("/images/car5-optimized.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 384rem;
 }
 .ferrari {
-  background-image: url("/images/car4.jpg");
+  background-image: url("/images/car4-optimized.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
